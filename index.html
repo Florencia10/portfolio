@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Florencia Diez Di Mauro</title>
+<meta name="description" content="Florencia Diez Di Mauro: quantitative research lead and sociologist in Barcelona. Selected work in survey and study design, Conjoint, discrete choice (CBC), MaxDiff, TURF, pricing research (Van Westendorp, Gabor Granger), segmentation and clustering, key driver analysis, regression, ANOVA, factor analysis, brand tracking, U&amp;A, data quality, AI-built research tools, custom Claude skills and workflow automation. SPSS, Tableau, Excel, XLSTAT.">
+<meta property="og:title" content="Florencia Diez Di Mauro · Quantitative Research Portfolio">
+<meta property="og:description" content="I design research systems that scale beyond the problem at hand. Selected work in quantitative research, data analysis, scalable research systems and AI-built tools.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+/* VOICE professional portfolio with a personal hand: work first, CV as support
+   IDEA a research portfolio read like a contingency table: every piece of work crossed by what it put into play
+   PICTURE the work matrix in the hero, rows linking to each case study
+   COLOUR white ground, bottle green field, celeste and terracotta as working colours; night deep green
+   TYPE Hanken Grotesk 800 + Newsreader for reading
+   LAYOUT green band: hook across the top, figures strip, matrix panel full width; then case studies, method, background, contact */
+:root{color-scheme:light dark;
+--bg:light-dark(#ffffff,#0f1c17);
+--ink:light-dark(#16241e,#eef4f0);
+--soft:light-dark(#4f625a,#a9bcb3);
+--green:light-dark(#2d5f4a,#173a2d);
+--onGreen:#f4f8f5;
+--panel:light-dark(#ffffff,#152620);
+--line:light-dark(#dfe7e2,#2a4237);
+--work:light-dark(#2d5f4a,#6fbf98);
+--sky:#7fc3dc;
+--terra:light-dark(#c8694f,#e08a70);
+--chip:light-dark(#eef5f1,#1d3329);
+--skytint:light-dark(#e6f4f9,#16303a)}
+:root[data-theme=light]{color-scheme:light}
+:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Newsreader,Georgia,serif;overflow-x:clip}
+h1,h2,h3,h4,nav,.sans,table,.btn,button,.cta a{font-family:"Hanken Grotesk",system-ui,sans-serif}
+a{color:var(--work)}
+.band{padding-block:clamp(28px,4vw,64px);padding-left:max(5vw,16px);padding-right:max(5vw,16px)}
+.wrap{max-width:1240px;margin:0 auto}
+nav{background:var(--green);color:var(--onGreen);padding:10px max(5vw,16px)}
+nav .wrap{display:flex;flex-wrap:wrap;gap:6px 24px;align-items:center;justify-content:space-between}
+nav b{font-weight:800;font-size:17px}
+nav ul{display:flex;flex-wrap:wrap;gap:0 18px;list-style:none;margin:0;padding:0;align-items:center}
+nav a{color:inherit;text-decoration:none;font-weight:500;font-size:15px;padding:10px 0;display:inline-block}
+nav a:hover,nav a:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.lang{display:flex;border:1.5px solid rgba(255,255,255,.6);border-radius:999px;overflow:hidden}
+.lang button{background:none;border:0;color:inherit;font-weight:600;font-size:14px;min-width:44px;min-height:36px;cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--onGreen);color:#16241e}
+.hero{background:var(--green);color:var(--onGreen);padding-top:clamp(20px,3vw,44px)}
+.who{font:600 clamp(15px,1.5vw,17px)/1.4 "Hanken Grotesk",sans-serif;color:#cfe9f2;margin:0 0 clamp(14px,2vw,22px)}
+.who b{color:#fff;font-weight:800}
+.clients{font:500 15px/1.5 "Hanken Grotesk",sans-serif;color:#d8e7df;margin:0 0 clamp(18px,2.5vw,28px)}
+.clients b{color:#fff;font-weight:600}
+.top{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:clamp(20px,4vw,56px);align-items:end;margin-bottom:clamp(22px,3vw,36px)}
+h1{font-size:clamp(36px,5.2vw,62px);line-height:1.04;letter-spacing:-.03em;font-weight:800;margin:0;text-wrap:balance}
+.intro p{margin:0 0 16px;max-width:52ch;color:#e3eee8}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.cta a{display:inline-flex;align-items:center;min-height:46px;padding:10px 20px;border-radius:999px;font-weight:600;font-size:16px;text-decoration:none;border:2px solid var(--onGreen);color:var(--onGreen)}
+.cta a.main{background:var(--onGreen);color:#16241e}
+.cta a:hover,.cta a:focus-visible{background:var(--sky);border-color:var(--sky);color:#16241e}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:clamp(18px,2.5vw,28px)}
+.figs div{border-top:2px solid var(--sky);padding-top:10px}
+.figs b{display:block;font:800 clamp(28px,3.4vw,40px)/1 "Hanken Grotesk",sans-serif;color:#fff}
+.figs span{font:500 15px/1.35 "Hanken Grotesk",sans-serif;color:#d8e7df}
+.panel{background:var(--panel);color:var(--ink);border-radius:18px;padding:clamp(16px,2.5vw,30px)}
+.phead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;align-items:baseline;margin-bottom:12px}
+.phead h2{font-size:clamp(20px,2.1vw,25px);margin:0;letter-spacing:-.015em;line-height:1.2}
+.phead span{font:500 15px "Hanken Grotesk",sans-serif;color:var(--soft)}
+.scroll{overflow-x:auto}
+table.x{border-collapse:collapse;width:100%;min-width:720px}
+.x th,.x td{padding:11px 8px;text-align:center;border-bottom:1px solid var(--line)}
+.x thead th{font-size:14px;font-weight:600;color:var(--soft);vertical-align:bottom;line-height:1.2}
+.x thead th:first-child,.x tbody th{text-align:left}
+.x tbody th{font-size:16px;font-weight:600}
+.x tbody th a{color:var(--ink);text-decoration:none}
+.x tbody th a:hover,.x tbody th a:focus-visible{color:var(--work);text-decoration:underline}
+.x tbody th small{display:block;font-weight:500;color:var(--soft);font-size:13px}
+.dot{display:inline-block;border-radius:50%;background:var(--work);vertical-align:middle;transition:transform .5s cubic-bezier(.2,.9,.3,1.4)}
+.dot.w3{width:28px;height:28px;background:var(--terra)}
+.dot.w2{width:19px;height:19px}
+.dot.w1{width:11px;height:11px;background:var(--sky)}
+.pre .dot{transform:scale(0)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:12px;font:14px "Hanken Grotesk",sans-serif;color:var(--soft);align-items:center}
+.legend i{margin-right:8px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(10px,1.6vw,18px)}
+.tile{display:flex;flex-direction:column;gap:10px;background:var(--panel);color:var(--ink);border-radius:16px;padding:20px;text-decoration:none;border-top:6px solid var(--c);transition:transform .2s ease}
+.tile:hover,.tile:focus-visible{transform:translateY(-3px)}
+.tile .tag{margin:0;align-self:flex-start}
+.tile h3{font-size:19px;line-height:1.2;margin:0;letter-spacing:-.01em}
+.tile p{margin:0;font-size:16px;color:var(--soft);flex:1}
+.tile small{font:600 13px "Hanken Grotesk",sans-serif;color:var(--soft)}
+.tile .chips li{font-size:13px;padding:3px 9px}
+.tile .go{font:600 15px "Hanken Grotesk",sans-serif;color:var(--work)}
+.sec h2{font-size:clamp(30px,3.8vw,44px);line-height:1.05;letter-spacing:-.025em;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--soft);margin:0 0 clamp(22px,3vw,36px);max-width:64ch}
+.case{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.35fr);gap:clamp(18px,3.5vw,52px);padding-block:clamp(26px,3.5vw,44px);border-top:2px solid var(--ink)}
+.tag{display:inline-block;font:600 13px "Hanken Grotesk",sans-serif;padding:4px 11px;border-radius:999px;color:#fff;background:var(--c);margin:0 0 12px}
+.case h3{font-size:clamp(24px,2.8vw,32px);line-height:1.08;letter-spacing:-.02em;margin:0 0 8px;text-wrap:balance}
+.meta{font:500 14px "Hanken Grotesk",sans-serif;color:var(--soft);margin:0 0 14px}
+.q{font-size:19px;line-height:1.45;margin:0 0 16px}
+.q b{font:600 14px "Hanken Grotesk",sans-serif;display:block;color:var(--terra);margin-bottom:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0}
+.chips li{background:var(--chip);border-radius:999px;padding:4px 11px;font:500 14px "Hanken Grotesk",sans-serif}
+.body h4{font-size:16px;margin:0 0 6px;color:var(--work)}
+.body p{margin:0 0 14px}
+.body ul{margin:0 0 16px;padding-left:1.2em}
+.body li{margin-bottom:6px}
+.outcome{background:var(--skytint);border-radius:12px;padding:14px 18px;margin:0 0 14px}
+.outcome h4{color:var(--ink)}
+.outcome p{margin:0}
+.learn{border-left:4px solid var(--sky);padding:2px 0 2px 16px}
+.how{background:var(--skytint)}
+.toolline{font:500 16px "Hanken Grotesk",sans-serif;margin:clamp(16px,2vw,24px) 0 0;color:var(--soft)}
+.toolline b{color:var(--ink);margin-right:10px}
+.stance{font-size:clamp(19px,2vw,23px);line-height:1.45;max-width:58ch;margin:4px 0 14px;border-left:5px solid var(--terra);padding-left:18px}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,2vw,24px);list-style:none;padding:0;margin:0}
+.steps>li{background:var(--panel);border-radius:16px;padding:22px;border-top:5px solid var(--c);display:flex;flex-direction:column;gap:10px}
+.steps h3{font-size:19px;margin:0;line-height:1.2}
+.steps p{margin:0;font-size:16px;flex:1}
+.bg{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(20px,3.5vw,48px);align-items:start}
+@media(min-width:761px){.bg>.panel{position:sticky;top:20px}}
+.tl{font-family:"Hanken Grotesk",sans-serif}
+.tl .axis,.tl .row{display:grid;grid-template-columns:minmax(140px,30%) minmax(0,1fr);gap:12px;align-items:center}
+.tl .row{padding:5px 0;border-bottom:1px solid var(--line)}
+.tl .lab{font-size:15px;font-weight:600;line-height:1.2}
+.tl .lab small{display:block;font-weight:400;color:var(--soft);font-size:13px}
+.tl .track{position:relative;height:20px}
+.tl .bar{position:absolute;top:3px;bottom:3px;border-radius:6px;transform-origin:left;transition:transform .8s ease}
+.tl .ticks{position:relative;height:20px;font-size:13px;color:var(--soft)}
+.tl .ticks span{position:absolute;transform:translateX(-50%);white-space:nowrap}
+.key{display:flex;flex-wrap:wrap;gap:4px 18px;font:500 14px "Hanken Grotesk",sans-serif;color:var(--soft);margin-bottom:8px}
+.key i{display:inline-block;width:14px;height:14px;border-radius:4px;margin-right:7px;vertical-align:-2px}
+.bg h3{font-size:20px;margin:0 0 10px}
+.list{list-style:none;padding:0;margin:0 0 24px}
+.list li{padding:9px 0;border-top:1px solid var(--line)}
+.list b{display:block;font:600 16px/1.3 "Hanken Grotesk",sans-serif}
+.list span{font-size:15px;color:var(--soft)}
+details{border-top:1px solid var(--line);padding:10px 0}
+summary{font:600 16px "Hanken Grotesk",sans-serif;cursor:pointer;min-height:32px}
+details ul{margin:8px 0 0;padding-left:1.2em;font-size:16px}
+.cv{display:inline-flex;align-items:center;min-height:46px;padding:10px 20px;border-radius:999px;border:2px solid var(--ink);color:var(--ink);text-decoration:none;font:600 16px "Hanken Grotesk",sans-serif;margin-top:6px}
+.cv:hover,.cv:focus-visible{background:var(--ink);color:var(--bg)}
+.contact{background:var(--green);color:var(--onGreen)}
+.contact .wrap{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(20px,4vw,56px);align-items:start}
+.contact .lead{color:#d8e7df}
+.links{display:flex;flex-direction:column;gap:12px}
+.btn{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:56px;padding:12px 20px;border:2px solid var(--onGreen);border-radius:14px;color:var(--onGreen);text-decoration:none;font-weight:600;font-size:17px}
+.btn span{font-weight:400;font-size:15px;overflow-wrap:anywhere;text-align:right;opacity:.85}
+.btn:hover,.btn:focus-visible{background:var(--onGreen);color:#16241e}
+footer{font:14px "Hanken Grotesk",sans-serif;color:var(--soft)}
+footer .sig{font:800 clamp(18px,2vw,22px) "Hanken Grotesk",sans-serif;color:var(--work);letter-spacing:-.01em}
+footer .sig i{font-style:normal;color:var(--terra);margin:0 4px}
+footer .wrap{align-items:center;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+:focus-visible{outline:3px solid var(--terra);outline-offset:3px;border-radius:4px}
+@media(max-width:960px){.steps,.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.top,.case,.bg,.contact .wrap{grid-template-columns:minmax(0,1fr)}.figs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.steps,.tiles{grid-template-columns:minmax(0,1fr)}.tl .row,.tl .axis{grid-template-columns:minmax(0,1fr);gap:4px}.tl .axis>div:first-child{display:none}.q{font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tile{transition:none}.dot,.tl .bar{transition:none}.pre .dot{transform:none}}
+</style>
+</head>
+<body>
+<nav aria-label="Main"><div class="wrap">
+  <b>Florencia Diez Di Mauro</b>
+  <ul>
+    <li><a href="#work" data-t="nWork">Work</a></li>
+    <li><a href="#approach" data-t="nHow">Approach</a></li>
+    <li><a href="#background" data-t="nBg">Background</a></li>
+    <li><a href="#contact" data-t="nCon">Contact</a></li>
+  </ul>
+</div></nav>
+
+<header class="hero band">
+  <div class="wrap">
+    <p class="who"><span data-t="who">Expert Lead, Quantitative Research · Master's Lecturer in Quantitative Research</span></p>
+    <div class="top">
+      <h1 data-t="hook">I design research systems that scale beyond the problem at hand.</h1>
+      <div class="intro">
+        <p data-t="intro">Sociologist based in Barcelona. With AI, execution is within everyone's reach; what makes the difference is the judgement to direct it: framing the right question, designing the system and knowing what the data really means. I do both: I design the system, and I build it myself with AI, a skill I keep sharpening every day.</p>
+        <div class="cta"><a class="main" href="#work" data-t="ctaWork">See selected work</a><a href="#contact" data-t="ctaCon">Get in touch</a></div>
+      </div>
+    </div>
+    <div class="figs" id="figs" style="margin-bottom:14px"></div>
+    <p class="clients"><b data-t="cliLab">Clients include</b> Netflix · Coca-Cola · Toyota · Heineken · BBVA · Nielsen</p>
+    <div class="tiles" id="tiles"></div>
+  </div>
+  </div>
+</header>
+
+<main>
+  <section class="band sec" id="work" aria-labelledby="h-work">
+    <div class="wrap">
+      <h2 id="h-work" data-t="workTitle">Selected work</h2>
+      <p class="lead" data-t="workLead">Client research, internal leadership and independent projects. Each one starts from a clearly defined question.</p>
+      <div id="cases"></div>
+    </div>
+  </section>
+
+  <section class="band sec how" id="approach" aria-labelledby="h-how">
+    <div class="wrap">
+      <h2 id="h-how" data-t="howTitle">How I work</h2>
+      <p class="stance" data-t="howStance">I think in abstractions. I design analytical systems conceptually first, mapping the logic, the variables and how they connect, and today I use AI to turn those designs into working tools. And I am strategic and pragmatic: I find the most effective way to solve a problem with the resources at hand.</p>
+      <p class="lead" data-t="howLead">The same path in every project: from the first question to a system that keeps working after I hand it over.</p>
+      <ol class="steps" id="steps"></ol>
+      <p class="toolline"><b data-t="aiLab">AI</b> <span data-t="aiList">Claude · Custom AI skills · Workflow automation · AI-assisted analysis and prototyping</span></p>
+      <p class="toolline" style="margin-top:6px"><b data-t="toolsLab">Tools</b> SPSS · Tableau · Excel · XLSTAT · <span data-t="pyBasic">Python and SQL (basic)</span></p>
+    </div>
+  </section>
+
+  <section class="band sec" id="background" aria-labelledby="h-bg">
+    <div class="wrap">
+      <h2 id="h-bg" data-t="bgTitle">Background</h2>
+      <p class="lead" data-t="bgLead">From sociology to research leadership, with additional training in data science.</p>
+      <div class="bg">
+        <div class="panel" style="border:1px solid var(--line)">
+          <div class="key" id="tlkey"></div>
+          <div class="tl" id="tl"></div>
+        </div>
+        <div>
+          <h3 data-t="cRoles">Roles</h3>
+          <ul class="list" id="roles"></ul>
+          <h3 data-t="cEdu">Education</h3>
+          <ul class="list" id="edu"></ul>
+          <details><summary data-t="cMore">Languages, awards and publications</summary><ul id="more"></ul></details>
+          <a class="cv" href="https://www.linkedin.com/in/florenciadiezdimauro/" data-t="cvLink">Full profile on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band sec contact" id="contact" aria-labelledby="h-con">
+    <div class="wrap">
+      <div>
+        <h2 id="h-con" data-t="conTitle">Let's talk</h2>
+        <p class="lead" data-t="conLead">Always happy to talk research methods, scalable systems, or how to make data tell a better story.</p>
+      </div>
+      <div class="links" id="links"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="band"><div class="wrap"><span>Florencia Diez Di Mauro · Barcelona</span><span class="sig">Built by Flor <i>·</i> Made to scale</span></div></footer>
+
+<script>
+{
+/* To add a project: add an object to CASES (texts in en and es).
+   "peso" goes from 0 (not applicable) to 3 (primary focus) on each axis in EJES. */
+const T = {
+ en:{nWork:"Work",nHow:"Approach",nBg:"Background",nCon:"Contact",
+  who:"Expert Lead, Quantitative Research · Master's Lecturer in Quantitative Research",hook:"I design research systems that scale beyond the problem at hand.",
+  intro:"Sociologist based in Barcelona. With AI, execution is within everyone's reach; what makes the difference is the judgement to direct it: framing the right question, designing the system and knowing what the data really means. I do both: I design the system, and I build it myself with AI, a skill I keep sharpening every day.",
+  ctaWork:"See selected work",ctaCon:"Get in touch",mxTitle:"Selected work, crossed by what each piece put into play",mxHint:"Select a row to open the case",
+  lg3:"Primary focus",lg2:"Significant",lg1:"Present",work:"Work",
+  workTitle:"Selected work",workLead:"Client research, internal leadership and independent projects. Each one starts from a clearly defined question.",
+  howTitle:"How I work",aiLab:"AI",aiList:"Claude · Custom AI skills · Workflow automation · AI-assisted analysis and prototyping",pyBasic:"Python and SQL (basic)",toolsLab:"Tools",howStance:"I think in abstractions. I design analytical systems conceptually first, mapping the logic, the variables and how they connect, and today I use AI to turn those designs into working tools. And I am strategic and pragmatic: I find the most effective way to solve a problem with the resources at hand.",howLead:"The same path in every project: from the first question to a system that keeps working after I hand it over.",
+  bgTitle:"Background",bgLead:"From sociology to research leadership, with additional training in data science.",
+  cRoles:"Roles",cEdu:"Education",cMore:"Languages, awards and publications",cvLink:"Full profile on LinkedIn",
+  conTitle:"Let's talk",conLead:"Always happy to talk research methods, scalable systems, or how to make data tell a better story.",
+  foot:"Independent projects developed with AI tools",kWork:"Work",kTeach:"Teaching",kEdu:"Education",now:"today",q:"Research question",outcome:"Outcome",
+  w0:"not applicable",w1:"present",w2:"significant",w3:"primary focus",tools:"Methods and tools",cliLab:"Clients include",shows:"What it shows",read:"Read the case"},
+ es:{nWork:"Trabajo",nHow:"Enfoque",nBg:"Trayectoria",nCon:"Contacto",
+  who:"Expert Lead de investigación cuantitativa · Docente de investigación cuantitativa en máster",hook:"Diseño sistemas de investigación que escalan más allá del problema puntual.",
+  intro:"Socióloga, en Barcelona. Con IA, ejecutar está al alcance de todos; lo que marca la diferencia es el criterio para dirigirla: plantear la pregunta correcta, diseñar el sistema y entender qué dicen realmente los datos. Yo hago las dos cosas: diseño el sistema y lo construyo yo misma con IA, algo que perfecciono cada día.",
+  ctaWork:"Ver trabajos",ctaCon:"Contactar",mxTitle:"Trabajos seleccionados, cruzados por lo que puso en juego cada uno",mxHint:"Elegí una fila para abrir el caso",
+  lg3:"Eje principal",lg2:"Importante",lg1:"Presente",work:"Trabajo",
+  workTitle:"Trabajos seleccionados",workLead:"Investigación para clientes, liderazgo interno y proyectos propios. Cada uno parte de una pregunta bien definida.",
+  howTitle:"Cómo trabajo",aiLab:"IA",aiList:"Claude · Skills de IA a medida · Automatización de flujos de trabajo · Análisis y prototipado asistidos por IA",pyBasic:"Python y SQL (nivel básico)",toolsLab:"Herramientas",howStance:"Pienso en abstracto. Primero diseño los sistemas analíticos de forma conceptual, con su lógica, sus variables y cómo se conectan, y hoy uso IA para convertir esos diseños en herramientas que funcionan. Y soy estratega y pragmática: busco la forma más efectiva de resolver un problema con los recursos que hay.",howLead:"El mismo recorrido en cada proyecto: de la primera pregunta a un sistema que sigue funcionando cuando ya no estoy.",
+  bgTitle:"Trayectoria",bgLead:"De la sociología al liderazgo en research, con formación complementaria en ciencia de datos.",
+  cRoles:"Puestos",cEdu:"Formación",cMore:"Idiomas, reconocimientos y publicaciones",cvLink:"Perfil completo en LinkedIn",
+  conTitle:"Hablemos",conLead:"Siempre dispuesta a charlar sobre métodos de investigación, sistemas que escalan o cómo hacer que los datos cuenten una mejor historia.",
+  foot:"Proyectos propios desarrollados con herramientas de IA",kWork:"Trabajo",kTeach:"Docencia",kEdu:"Formación",now:"hoy",q:"Pregunta de investigación",outcome:"Resultado",
+  w0:"no aplica",w1:"presente",w2:"importante",w3:"eje principal",tools:"Métodos y herramientas",cliLab:"Clientes como",shows:"Lo que muestra",read:"Ver el caso"}
+};
+const CONTACTO = [
+  {red:"LinkedIn",texto:"florenciadiezdimauro",url:"https://www.linkedin.com/in/florenciadiezdimauro/"},
+  {red:"Email",texto:"flopy.10@hotmail.com",url:"mailto:flopy.10@hotmail.com"}
+];
+const FIGS = [
+  {n:"10+",en:"years in quantitative research",es:"años en investigación cuantitativa"},
+  {n:"100+",en:"client studies designed and led",es:"estudios para clientes diseñados y liderados"},
+  {n:"20+",en:"researchers onboarded directly",es:"researchers incorporados de forma directa"},
+  {n:"100+",en:"Master's students taught worldwide",es:"estudiantes de máster de todo el mundo"}
+];
+const EJES = [
+  {id:"q",en:"Problem definition",es:"Definir el problema"},
+  {id:"d",en:"Research design",es:"Diseño de la investigación"},
+  {id:"c",en:"Data quality",es:"Calidad del dato"},
+  {id:"a",en:"Analysis",es:"Análisis"},
+  {id:"u",en:"Users & stakeholders",es:"Usuarios y stakeholders"},
+  {id:"s",en:"Scalability",es:"Escalabilidad"},
+  {id:"i",en:"AI implementation",es:"Implementación con IA"}
+];
+const KIND = {
+  client:{c:"var(--terra)",en:"Client work",es:"Trabajo para clientes"},
+  lead:{c:"var(--work)",en:"Leadership",es:"Liderazgo"},
+  own:{c:"#3d8fae",en:"Independent project",es:"Proyecto propio"}
+};
+const CASES = [
+  {id:"multi-market",teaser:{en:"2,250 respondents across three markets to explain why one service performed so differently in each, and what to do about it.",es:"2.250 encuestados en tres mercados para explicar por qué un mismo servicio funcionaba tan distinto en cada uno, y qué hacer al respecto."},kind:"client",
+   t:{en:"Explaining performance gaps across three European markets",es:"Explicar las diferencias de rendimiento entre tres mercados europeos"},
+   s:{en:"Multi-market client study",es:"Estudio multimercado para cliente"},
+   meta:{en:"Multi-market research · n = 750 per market · Anonymised",es:"Investigación multimercado · n = 750 por mercado · Anonimizado"},
+   q:{en:"Why was the same service performing so differently from one market to another, and how could each market's problems be resolved?",es:"¿Por qué el mismo servicio funcionaba tan distinto de un mercado a otro, y cómo resolver los problemas de cada uno?"},
+   tools:["Study design","Purchase funnel","Multi-market"],
+   peso:{q:3,d:3,c:1,a:3,u:2,s:1,i:0},
+   secs:[
+    {h:{en:"Approach",es:"Enfoque"},p:{en:"A survey of 750 respondents in each of three European markets (2,250 in total), built around a purchase-funnel analysis so that each market could be read in its own context rather than averaged into a single picture.",es:"Una encuesta a 750 personas en cada uno de tres mercados europeos (2.250 en total), construida en torno a un análisis de funnel de compra, para leer cada mercado en su propio contexto y no diluirlo en un promedio."}},
+    {h:{en:"What made the difference",es:"Lo que marcó la diferencia"},p:{en:"Reading each market's funnel in its own context showed that the gap between markets came from how consumers relate to the category, not from the service itself.",es:"Leer el funnel de cada mercado en su propio contexto mostró que la brecha entre mercados venía de cómo se relacionan los consumidores con la categoría, no del servicio en sí."}},
+    {out:{en:"The key pain points were identified market by market and translated into specific actions, which the client used to make concrete decisions in each market.",es:"Se identificaron los puntos críticos mercado por mercado y se tradujeron en acciones concretas, que el cliente usó para tomar decisiones en cada mercado."}},
+    {learn:{en:"In hindsight: today I would add a Mental Availability study, an approach whose brand metrics are far more closely linked to sales performance than traditional funnel measures.",es:"Mirando atrás: hoy sumaría un estudio de Mental Availability, un enfoque cuyas métricas de marca están mucho más vinculadas al rendimiento en ventas que las medidas tradicionales de funnel."}}
+   ]},
+  {id:"knowledge-base",teaser:{en:"A research knowledge base rebuilt to scale and stay current.",es:"Una base de conocimiento de research rediseñada para escalar y mantenerse vigente."},kind:"lead",
+   t:{en:"Leading the redesign of a scalable research knowledge base",es:"Liderando el rediseño de una base de conocimiento de research escalable"},
+   s:{en:"Internal initiative, ongoing",es:"Iniciativa interna, en curso"},
+   meta:{en:"Ongoing · Knowledge management",es:"En curso · Gestión del conocimiento"},
+   q:{en:"How can a fast-changing research organisation keep its knowledge accurate when processes change constantly?",es:"¿Cómo mantiene vigente su conocimiento una organización de research cuyos procesos cambian todo el tiempo?"},
+   tools:["Knowledge management","Process design","Team enablement"],
+   peso:{q:2,d:3,c:3,a:1,u:3,s:3,i:0},
+   secs:[
+    {h:{en:"Context",es:"Contexto"},p:{en:"Frequent process updates kept leaving documentation outdated.",es:"Las actualizaciones frecuentes de procesos dejaban la documentación desactualizada."}},
+    {h:{en:"My role",es:"Mi rol"},p:{en:"I lead a large-scale project that rebuilds the entire research knowledge base so it can scale and stay current as processes evolve.",es:"Lidero un proyecto de gran escala que rediseña toda la base de conocimiento de research para que pueda escalar y mantenerse al día a medida que los procesos evolucionan."}}
+   ]},
+  {id:"finance-system",teaser:{en:"Seven validation checks before any analysis, on three years of data.",es:"Siete controles antes de cualquier análisis, sobre tres años de datos."},kind:"own",
+   t:{en:"Personal Finance Control System",es:"Sistema de control de finanzas personales"},
+   s:{en:"Data validation and monthly reporting",es:"Validación de datos y reporte mensual"},
+   meta:{en:"Three years of tracking · Monthly cycle",es:"Tres años de registro · Ciclo mensual"},
+   q:{en:"How can monthly financial records be validated before analysis, and how can that data be linked to a multi-year financial plan?",es:"¿Cómo validar los registros financieros de cada mes antes de analizarlos, y cómo vincular esos datos con un plan a varios años?"},
+   tools:["Excel","Claude skills"],
+   peso:{q:2,d:3,c:3,a:2,u:0,s:2,i:2},
+   secs:[
+    {h:{en:"Solution",es:"Solución"},p:{en:"A workbook with monthly tabs under a fixed schema and a reference table of recurring transactions serving as the single source of truth. A Claude-assisted month-end review runs consistency checks first and performs analysis only once the data has been validated.",es:"Una planilla con pestañas mensuales bajo un esquema fijo y una tabla de movimientos recurrentes como única fuente de verdad. Una revisión de cierre de mes asistida por Claude controla primero la consistencia y recién analiza cuando los datos están validados."}},
+    {h:{en:"Approach",es:"Enfoque"},l:{en:["A closed category taxonomy (fixed, variable, income) that prevents misclassified entries from silently dropping out of summaries.","Seven sequential validation checks: missing records, amount deviations, duplicates, invalid categories, budget allocation, reference values and totals.","Findings are flagged rather than auto-corrected, keeping decisions with the analyst."],es:["Una taxonomía cerrada de categorías (fijos, variables e ingresos) que evita que un registro mal clasificado quede afuera del resumen sin que nadie lo note.","Siete controles en orden: faltantes, desvíos de importe, duplicados, categorías inválidas, asignación de presupuesto, valores de referencia y totales.","Los hallazgos se marcan, no se corrigen solos: la decisión queda en quien analiza."]}},
+    {out:{en:"Built on three years of comprehensive tracking and planning, the method turned a zero-savings starting point into long-term assets and met the major financial goals it was designed for. It now underpins the Amicha Financial Project.",es:"Construido sobre tres años de registro exhaustivo y planificación, el método convirtió un punto de partida sin ahorros en patrimonio a largo plazo y cumplió los grandes objetivos para los que fue diseñado. Hoy es la base del Proyecto Amicha financiera."}}
+   ]},
+  {id:"amicha",teaser:{en:"A proven method scaled to users in two countries, with privacy by design.",es:"Un método probado, escalado a usuarias de dos países, con privacidad desde el diseño."},kind:"own",
+   t:{en:"Amicha Financial Project",es:"Proyecto Amicha financiera"},
+   s:{en:"Personal finance toolkit for a peer community",es:"Kit de finanzas personales para una comunidad"},
+   meta:{en:"2026 · Deployed in Argentina and Spain · v1.1",es:"2026 · En uso en Argentina y España · v1.1"},
+   q:{en:"How can people with no spreadsheet experience, in two very different economies, manage their finances without the project owner ever seeing their data?",es:"¿Cómo pueden personas sin experiencia en planillas, en dos economías muy distintas, ordenar sus finanzas sin que quien lleva el proyecto vea nunca sus datos?"},
+   tools:["Claude skills","Automation","Google Sheets","Google Forms"],
+   peso:{q:2,d:2,c:2,a:2,u:3,s:3,i:3},
+   secs:[
+    {h:{en:"Solution",es:"Solución"},p:{en:"A toolkit that scales my own personal finance method: a spreadsheet plus custom Claude skills that guide each user through her monthly close and goals, with country versions for Argentina (inflation and exchange rate) and Spain.",es:"Un kit que escala mi propio método de finanzas personales: una planilla más skills de Claude a medida que guían a cada usuaria en su cierre de mes y sus objetivos, con versiones para Argentina (inflación y tipo de cambio) y España."}},
+    {h:{en:"Approach",es:"Enfoque"},l:{en:["Privacy by design: only feedback reaches me, never financial data.","Feedback coded into 11 themes and scored, then prioritised by impact versus effort for each release.","Versioned releases with data migration, so no user loses her history."],es:["Privacidad desde el diseño: solo me llega feedback, nunca datos financieros.","Feedback codificado en 11 temas y con puntaje, priorizado por impacto y esfuerzo en cada versión.","Versiones con migración de datos, para que ninguna usuaria pierda su historial."]}}
+   ]}
+];
+const STEPS = [
+  {c:"var(--terra)",t:{en:"Define the question",es:"Definir la pregunta"},p:{en:"Most people start with a problem, not a research question. I guide them in grounding it: what we need to know, for whom, and which decision will change with the answer.",es:"La mayoría de la gente llega con un problema, no con una pregunta de investigación. Los acompaño a bajarlo a tierra: qué necesitamos saber, para quién y qué decisión va a cambiar con la respuesta."},x:["U&A","Tracking","Concept testing","Creative testing"]},
+  {c:"var(--work)",t:{en:"Design the study",es:"Diseñar el estudio"},p:{en:"Methodology, sampling and target groups, with advanced methods where preference or price is at stake.",es:"Metodología, muestreo y target, con métodos avanzados cuando están en juego la preferencia o el precio."},x:{en:["Pricing analysis","Conjoint, CBC & MaxDiff","TURF","Mental Availability"],es:["Análisis de precios","Conjoint, CBC y MaxDiff","TURF","Mental Availability"]}},
+  {c:"var(--sky)",t:{en:"Ensure quality, then analyse",es:"Calidad primero, después análisis"},p:{en:"Consistent data before any conclusion; bivariate and multivariate analysis with reporting built for rapid reading.",es:"Datos consistentes antes de cualquier conclusión; análisis bivariado y multivariado con reportes pensados para leerse rápido."},x:{en:["Segmentation & clustering","Key driver analysis","Regression & significance testing","Factor analysis","Correlation & predictive analysis"],es:["Segmentación y clustering","Key driver analysis","Regresión y tests de significancia","Análisis factorial","Análisis de correlación y predictivo"]}},
+  {c:"var(--ink)",t:{en:"Build to scale",es:"Construir para escalar"},p:{en:"Clear recommendations, and solutions designed as systems others can use, maintain and grow: onboarding programmes, knowledge bases, toolkits.",es:"Recomendaciones claras, y soluciones pensadas como sistemas que otros pueden usar, mantener y hacer crecer: programas de onboarding, bases de conocimiento, kits."},x:{en:["Consulting","Training","Knowledge management","Systems thinking"],es:["Consultoría","Formación","Gestión del conocimiento","Pensamiento sistémico"]}}
+];
+const NOW = 2026.9;
+const TL = [
+  {k:"work",a:2023.7,b:NOW,l:"Appinio",s:{en:"Senior Consultant to Expert Lead",es:"De Senior Consultant a Expert Lead"}},
+  {k:"teach",a:2023.6,b:NOW,l:"Elisava",s:{en:"Master's lecturer, Barcelona & Madrid",es:"Docente de máster, Barcelona y Madrid"}},
+  {k:"work",a:2022,b:2023.7,l:"Degusta Box",s:{en:"Research Coordinator",es:"Research Coordinator"}},
+  {k:"work",a:2019.85,b:2022.05,l:"Netquest",s:{en:"Data analysis & visualisation",es:"Análisis y visualización de datos"}},
+  {k:"edu",a:2019,b:2019.9,l:"Digital House",s:{en:"Data Science",es:"Data Science"}},
+  {k:"work",a:2017.1,b:2019.15,l:"IEASA · Empoderar RSE",s:{en:"Social research",es:"Investigación social"}},
+  {k:"edu",a:2016,b:2016.6,l:"Sciences Po Aix",s:{en:"Merit scholarship, France",es:"Beca por mérito, Francia"}},
+  {k:"edu",a:2010,b:2016.9,l:"Universidad de Buenos Aires",s:{en:"Degree in Sociology",es:"Licenciatura en Sociología"}}
+];
+const ROLES = [
+  {b:{en:"Expert Lead Research · Appinio",es:"Expert Lead Research · Appinio"},s:{en:"2026 – present. Previously Team Lead (5 direct reports) and Senior Research Consultant, since 2023. Methodological reference for 80+ researchers; designed the onboarding and upskilling programme.",es:"2026 – hoy. Antes Team Lead (5 personas a cargo) y Senior Research Consultant, desde 2023. Referente metodológica de más de 80 researchers; diseñé el programa de onboarding y upskilling."}},
+  {b:{en:"Quantitative Research Lecturer · Elisava",es:"Docente de investigación cuantitativa · Elisava"},s:{en:"2023 – present. Three Master's programmes, Barcelona and Madrid.",es:"2023 – hoy. Tres másteres, Barcelona y Madrid."}},
+  {b:{en:"Research Coordinator · Degusta Box",es:"Research Coordinator · Degusta Box"},s:{en:"2022 – 2023. Quantitative research across 6 European markets.",es:"2022 – 2023. Investigación cuantitativa en 6 mercados europeos."}},
+  {b:{en:"Reporting, Data Visualisation & Analysis · Netquest",es:"Reporting, visualización y análisis · Netquest"},s:{en:"2019 – 2022. Reporting and analysis for international clients.",es:"2019 – 2022. Reporting y análisis para clientes internacionales."}},
+  {b:{en:"Social research · IEASA and Empoderar RSE",es:"Investigación social · IEASA y Empoderar RSE"},s:{en:"2017 – 2019, Argentina. Social monitoring and CSR for energy and mining projects.",es:"2017 – 2019, Argentina. Monitoreo social y RSE en proyectos energéticos y mineros."}}
+];
+const EDU = [
+  {b:"Digital House",s:{en:"Data Science intensive programme · 2019",es:"Data Science, curso intensivo · 2019"}},
+  {b:"Sciences Po Aix · France",s:{en:"Academic stay in sociology · 2016. Attended on a scholarship awarded for academic performance.",es:"Estancia académica en sociología · 2016. Con una beca obtenida por desempeño académico."}},
+  {b:"Universidad de Buenos Aires",s:{en:"Degree in Sociology · 2010–2016. Ranked 84th worldwide (QS World University Rankings 2027); Sociology 64th globally (QS by Subject 2026).",es:"Licenciatura en Sociología · 2010–2016. Puesto 84 del mundo (QS World University Rankings 2027); Sociología, puesto 64 mundial (QS por disciplina 2026)."}}
+];
+const MORE = {
+  en:["Spanish (native), English (full professional), Italian (limited working).","Academic Excellence Award; scholarships for academic performance (including Sciences Po Aix) and for international students.","Publications: Towards the sustainability of hydroelectric projects in Argentina; The role of psychiatric medicalisation in serious workplace accidents in Buenos Aires; Models, scope and stages of social participation processes in infrastructure works."],
+  es:["Español (nativo), inglés (profesional completo), italiano (profesional limitado).","Premio a la Excelencia Académica; becas por desempeño académico (entre ellas, la de Sciences Po Aix) y para estudiantes extranjeros.","Publicaciones: Hacia la sostenibilidad de los proyectos hidroeléctricos en Argentina; El rol de la medicalización psiquiátrica en accidentes laborales graves de CABA y GBA; Modelos, alcances y etapas de los procesos de participación social en obras de infraestructura."]
+};
+
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let lang = "en";
+const L = o => (o && typeof o === "object" && !Array.isArray(o)) ? o[lang] : o;
+const $ = id => document.getElementById(id);
+const COL = {work:"var(--work)",teach:"var(--terra)",edu:"var(--sky)"};
+const Y0 = 2010, Y1 = 2027, pc = y => ((y - Y0) / (Y1 - Y0) * 100).toFixed(2);
+
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.documentElement.dataset.lang = lang;
+  document.querySelectorAll("[data-t]").forEach(el => { if (t[el.dataset.t]) el.textContent = t[el.dataset.t]; });
+
+  $("figs").innerHTML = FIGS.map(f => '<div><b>' + esc(f.n) + '</b><span>' + esc(f[lang]) + '</span></div>').join("");
+
+  $("tiles").innerHTML = CASES.map(c => '<a class="tile" href="#' + esc(c.id) + '" style="--c:' + KIND[c.kind].c + '"><span class="tag" style="--c:' + KIND[c.kind].c + '">' + esc(L(KIND[c.kind])) + '</span><h3>' + esc(L(c.t)) + '</h3><p>' + esc(L(c.teaser)) + '</p>' +
+    '<small>' + esc(t.shows) + '</small><ul class="chips">' + EJES.filter(e => c.peso[e.id] === 3).map(e => '<li>' + esc(e[lang]) + '</li>').join("") + '</ul><span class="go">' + esc(t.read) + ' →</span></a>').join("");
+
+  $("cases").innerHTML = CASES.map(c => '<article class="case" id="' + esc(c.id) + '"><div>' +
+    '<p class="tag" style="--c:' + KIND[c.kind].c + '">' + esc(L(KIND[c.kind])) + '</p><h3>' + esc(L(c.t)) + '</h3><p class="meta">' + esc(L(c.meta)) + '</p>' +
+    '<p class="q"><b>' + esc(t.q) + '</b>' + esc(L(c.q)) + '</p><ul class="chips" aria-label="' + esc(t.tools) + '">' + c.tools.map(x => '<li>' + esc(x) + '</li>').join("") + '</ul></div><div class="body">' +
+    c.secs.map(s => s.out ? '<div class="outcome"><h4>' + esc(t.outcome) + '</h4><p>' + esc(L(s.out)) + '</p></div>' :
+      s.learn ? '<p class="learn">' + esc(L(s.learn)) + '</p>' :
+      '<h4>' + esc(L(s.h)) + '</h4>' + (s.p ? '<p>' + esc(L(s.p)) + '</p>' : '') + (s.l ? '<ul>' + L(s.l).map(x => '<li>' + esc(x) + '</li>').join("") + '</ul>' : '')).join("") +
+    '</div></article>').join("");
+
+  $("steps").innerHTML = STEPS.map(s => '<li style="--c:' + s.c + '"><h3>' + esc(L(s.t)) + '</h3><p>' + esc(L(s.p)) + '</p><ul class="chips">' + L(s.x).map(x => '<li>' + esc(x) + '</li>').join("") + '</ul></li>').join("");
+
+  $("tlkey").innerHTML = [["work",t.kWork],["teach",t.kTeach],["edu",t.kEdu]].map(k => '<span><i style="background:' + COL[k[0]] + '"></i>' + esc(k[1]) + '</span>').join("");
+  const ticks = [2010,2014,2018,2022];
+  $("tl").innerHTML = TL.map(r => '<div class="row"><div class="lab">' + esc(r.l) + '<small>' + esc(L(r.s)) + '</small></div><div class="track"><div class="bar" style="left:' + pc(r.a) + '%;width:' + (pc(r.b) - pc(r.a)).toFixed(2) + '%;background:' + COL[r.k] + '"></div></div></div>').join("") +
+    '<div class="axis"><div></div><div class="ticks">' + ticks.map(y => '<span style="left:' + pc(y) + '%">' + y + '</span>').join("") + '<span style="left:' + pc(NOW) + '%;color:var(--terra);font-weight:600;transform:translateX(-100%)">' + esc(t.now) + '</span></div></div>';
+
+  $("roles").innerHTML = ROLES.map(r => '<li><b>' + esc(L(r.b)) + '</b><span>' + esc(L(r.s)) + '</span></li>').join("");
+  $("edu").innerHTML = EDU.map(e => '<li><b>' + esc(e.b) + '</b><span>' + esc(L(e.s)) + '</span></li>').join("");
+  $("more").innerHTML = MORE[lang].map(m => '<li>' + esc(m) + '</li>').join("");
+  $("links").innerHTML = CONTACTO.map(c => '<a class="btn" href="' + esc(c.url) + '">' + esc(c.red) + '<span>' + esc(c.texto) + '</span></a>').join("");
+}
+render();
+}
+</script>
+</body>
+</html>
