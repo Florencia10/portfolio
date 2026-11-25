@@ -1,0 +1,7 @@
+# Allowlist: only the public site files can be committed to this public repository.
+# To publish a new file, add it below deliberately (and check it is meant to be public).
+*
+!.gitignore
+!index.html
+!README.md
+!netlify.toml
